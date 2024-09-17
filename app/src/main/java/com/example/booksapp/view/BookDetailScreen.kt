@@ -113,6 +113,7 @@ fun BookDetailScreen(navController: NavController, bookId: Int, viewModel: BookV
                         style = MaterialTheme.typography.titleMedium.copy(fontSize = 20.sp),
                         color = MaterialTheme.colorScheme.primary
                     )
+                    Spacer(modifier = Modifier.height(16.dp))
                     Text(
                         text = book.description,
                         style = MaterialTheme.typography.bodySmall.copy(lineHeight = 20.sp),
